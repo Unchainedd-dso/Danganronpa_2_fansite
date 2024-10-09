@@ -1,0 +1,158 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face
+{
+    font-family: danganronpa_font;
+    src: url(./fonts/goodbyeDespair.ttf)
+}
+
+@font-face
+{
+    font-family: v3_font;
+    src: url(./fonts/Turds-vppD.ttf);
+}
+
+body
+{
+    background-image: url(./images/beach.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+
+header
+{
+    background-color: #333333;;  
+    color: white;  
+    padding: 16px;
+    font-family: danganronpa_font;
+    font-weight: normal;
+}
+
+
+
+section
+{
+    margin: 24px 0;
+}
+
+.container
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li
+{
+    display: inline;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+header li a
+{
+    text-decoration: none;
+    color:white;
+}
+
+.container img
+{
+    width: 620px;
+}
+
+#synopsis article
+{
+    margin-left: 16px;
+}
+#synopsis .container
+{
+    display: flex;
+    margin-top: 32px;
+    padding: 16px;
+    justify-content: space-between;
+    color: white;
+    background: url(./images/backgound_for_text.png) center top;
+    position: relative;
+}
+
+#synopsis p
+{
+    margin-bottom: 4px;
+    text-indent: initial;
+}
+
+#synopsis h2,
+#media h2
+{
+    margin-bottom: 16px;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.chibis
+{
+    margin-top: 16px;
+    position: absolute;
+    bottom: 11px;
+}
+
+.chibis img
+{
+    width: 42px;
+    justify-content: space-between;
+}
+
+.trailers
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+.trailers article
+{
+    width:30%;
+}
+
+.trailers article video
+{
+    width: 100%
+}
+
+article h3
+{
+    margin: 8px;
+    font-family: 'Cantarell', sans-serif;
+}
+
+footer
+{
+    background-color: #333333;
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+footer a
+{
+    color: white;
+    font-family: v3_font;
+    text-decoration: none;
+}
+
